@@ -1,0 +1,45 @@
+.post {
+    background-color: lightcoral;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: lightpink;
+    display: none;
+}
+.close {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    color:red;
+    cursor: pointer;
+}
+
+.overlay.overlayActive {
+    display: block;
+}
+
+.add-post{
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: white;
+    font-size: large;
+}
+.overlay-content {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(159, 55, 71);
+    display: none;
+}
+.overlay-content.activeAddOverlay{
+    display: block;
+}
